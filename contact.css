@@ -1,0 +1,118 @@
+/* Shared styles for Contact Page */
+body {
+    font-family: 'Poppins', sans-serif; /* Sets the font for the entire page to 'Poppins'. */
+    margin: 0; /* Removes default margin around the body. */
+    padding: 0; /* Removes default padding around the body. */
+    background-color: #EBA6A9; /* Sets body background color to light pink. */
+}
+
+header {
+    background: #C2EABD; /* Sets header background color to light green. */
+    padding: 1rem; /* Adds padding inside the header for spacing. */
+    text-align: center; /* Centers the text inside the header. */
+}
+
+header .nav-links {
+    list-style-type: none; /* Removes bullet points from the list. */
+    padding: 0; /* Removes default padding. */
+    margin: 0; /* Removes default margin. */
+    display: flex; /* Displays the list items in a row. */
+    justify-content: center; /* Centers the navigation links horizontally. */
+}
+
+header .nav-links a {
+    text-decoration: none; /* Removes the underline from navigation links. */
+    color: #264653; /* Sets navigation links color to dark blue-green. */
+    margin: 0 10px; /* Adds horizontal spacing between navigation links. */
+    font-family: 'Poppins', sans-serif; /* Ensures navigation links use the 'Poppins' font. */
+}
+.contact {
+    padding: 3rem; /* Adds padding inside the tips section for spacing. */
+    text-align: center; /* Centers the text inside the tips section. */
+    background-color: #EBA6A9; /* Sets the background color of the tips section to match the body background. */
+}
+
+.contact h1 {
+    font-family: 'Lora', serif; /* Sets the font for the main heading to 'Lora'. */
+    font-size: 3rem; /* Sets the font size of the main heading to 3 rem units. */
+    color: #264653; /* Sets the text color of the main heading to dark blue-green. */
+    margin-bottom: 1.5rem; /* Adds a margin of 1.5 rem below the heading. */
+}
+
+.contact p {
+    font-size: 1.2rem; /* Sets the font size of paragraphs inside the tips section to 1.2 rem units. */
+    color: #264653; /* Sets the text color of paragraphs to match the tip headings. */
+}
+
+
+.contactForm {
+    padding: 5rem; /* Adds padding inside the contact form for spacing. */
+    text-align: center; /* Centers the text inside the contact form. */
+    background-color: #EBA6A9; /* Matches body background color. */
+}
+
+
+.contactForm label {
+    font-size: 1.2rem; /* Sets font size for labels. */
+    color: #264653; /* Sets label text color to dark blue-green. */
+}
+
+.contactForm input, .contact-form textarea {
+    width: 100%; /* Makes input fields and textarea take up full width of their container. */
+    padding: 0.8rem; /* Adds padding inside the input fields and textarea. */
+    margin: 0.5rem 0; /* Adds vertical spacing between input fields and textarea. */
+    border-radius: 5px; /* Rounds the corners of the input fields and textarea. */
+    border: 1px solid #264653; /* Adds a border to the input fields and textarea. */
+}
+
+.contactForm button {
+    padding: 0.8rem 2rem; /* Adds padding inside the button for spacing. */
+    background-color: #9B7E46; /* Sets button background color. */
+    color: white; /* Sets button text color to white. */
+    border: none; /* Removes the default border from the button. */
+    border-radius: 5px; /* Rounds the corners of the button. */
+    cursor: pointer; /* Changes cursor to pointer when hovering over the button. */
+}
+
+.contactForm button:hover {
+    background-color: #264653; /* Changes button background color on hover. */
+}
+
+/* Back to Top Button */
+.back-to-top {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed position on the screen */
+    bottom: 20px; /* 20 pixels from the bottom */
+    right: 20px; /* 20 pixels from the right */
+    width: 50px; /* Button width */
+    height: 50px; /* Button height */
+    background-color: #C2EABD; /* Light green background color */
+    color: #264653; /* Dark blue-green text color */
+    border: none; /* No border */
+    border-radius: 50%; /* Rounded corners */
+    font-size: 24px; /* Font size for the arrow */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    z-index: 1000; /* Ensure it's above other elements */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.back-to-top:hover {
+    background-color: #9B7E46; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+
+footer {
+    background-color: #9B7E46; /* Sets footer background color to dark yellow-brown. */
+    color: white; /* Sets footer text color to white. */
+    text-align: center; /* Centers the text inside the footer. */
+    padding: 1.5rem; /* Adds padding inside the footer. */
+    font-family: 'Poppins', sans-serif; /* Ensures footer uses the 'Poppins' font. */
+}
+
+footer .social-icons a {
+    text-decoration: none; /* Removes underline from social media links. */
+    color: white; /* Sets social media link color to white. */
+    margin: 0 10px; /* Adds horizontal spacing between social media links. */
+}

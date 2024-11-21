@@ -1,0 +1,153 @@
+body {
+    font-family: 'Poppins', sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #EBA6A9; 
+}
+
+header {
+    background: #C2EABD; 
+    padding: 1rem;
+    text-align: center; 
+}
+
+header .nav-links {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
+}
+
+header .nav-links a {
+    text-decoration: none;
+    color: #264653; 
+    margin: 0 10px; 
+    font-family: 'Poppins', sans-serif; 
+}
+
+.hero {
+    padding: 3rem; 
+    text-align: center; 
+    background-color: #EBA6A9;
+}
+
+.hero h1 {
+    font-family: 'Lora', serif; 
+    font-size: 3rem; 
+    color: #264653; 
+    margin-bottom: 1rem; 
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: #264653; 
+}
+
+.features {
+    padding: 3rem; /* Adds padding inside the tips section for spacing. */
+    text-align: center; /* Centers the text inside the tips section. */
+    background-color: #EBA6A9; /* Sets the background color of the tips section to match the body background. */
+}
+
+.features h2 {
+    font-family: 'Lora', serif; /* Sets the font for the main heading to 'Lora'. */
+    font-size: 3rem; /* Sets the font size of the main heading to 3 rem units. */
+    color: #264653; /* Sets the text color of the main heading to dark blue-green. */
+    margin-bottom: 1.5rem; /* Adds a margin of 1.5 rem below the heading. */
+}
+
+.card {
+    background-color: #C2EABD; /* Sets the background color for each tip to light green. */
+    border-radius: 8px; /* Rounds the corners of each tip. */
+    padding: 1.5rem; /* Adds padding inside each tip for spacing. */
+    margin-bottom: 2rem; /* Adds a margin of 2 rem below each tip. */
+}
+.card h3 {
+    font-family: 'Lora', serif; /* Sets the font for the tip headings to 'Lora'. */
+    font-size: 2rem; /* Sets the font size of the tip headings to 2 rem units. */
+    color: #264653; /* Sets the text color of the tip headings to dark blue-green. */
+    margin-bottom: 0.8rem; /* Adds a margin of 0.8 rem below each tip heading. */
+}
+.card p {
+    font-size: 1.2rem; /* Sets the font size of paragraphs inside the tips section to 1.2 rem units. */
+    color: #264653; /* Sets the text color of paragraphs to match the tip headings. */
+}
+
+.bestsellers {
+    padding: 3rem; /* Adds padding inside the tips section for spacing. */
+    text-align: center; /* Centers the text inside the tips section. */
+    background-color: #EBA6A9; /* Sets the background color of the tips section to match the body background. */
+}
+
+.bestsellers h2 {
+    font-family: 'Lora', serif; /* Sets the font for the main heading to 'Lora'. */
+    font-size: 3rem; /* Sets the font size of the main heading to 3 rem units. */
+    color: #264653; /* Sets the text color of the main heading to dark blue-green. */
+    margin-bottom: 1.5rem; /* Adds a margin of 1.5 rem below the heading. */
+}
+
+.product {
+    background-color: #C2EABD; /* Sets the background color for each tip to light green. */
+    border-radius: 8px; /* Rounds the corners of each tip. */
+    padding: 1.5rem; /* Adds padding inside each tip for spacing. */
+    margin-bottom: 2rem; /* Adds a margin of 2 rem below each tip. */
+}
+
+.product h3 {
+    font-family: 'Lora', serif; /* Sets the font for the tip headings to 'Lora'. */
+    font-size: 2rem; /* Sets the font size of the tip headings to 2 rem units. */
+    color: #264653; /* Sets the text color of the tip headings to dark blue-green. */
+    margin-bottom: 0.8rem; /* Adds a margin of 0.8 rem below each tip heading. */
+}
+.product p {
+    font-size: 1.2rem; /* Sets the font size of paragraphs inside the tips section to 1.2 rem units. */
+    color: #264653; /* Sets the text color of paragraphs to match the tip headings. */
+}
+
+.product img {
+    width: 100%;  /* Makes the image responsive and scale to the container width */
+    max-width: 300px;  /* Limits the image width to 300px */
+    height: auto;  /* Maintains the image aspect ratio */
+    display: block;  /* Removes space below the image */
+    margin: 0 auto;  /* Centers the image within the product container */
+}
+
+/* Back to Top Button */
+.back-to-top {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed position on the screen */
+    bottom: 20px; /* 20 pixels from the bottom */
+    right: 20px; /* 20 pixels from the right */
+    width: 50px; /* Button width */
+    height: 50px; /* Button height */
+    background-color: #C2EABD; /* Light green background color */
+    color: #264653; /* Dark blue-green text color */
+    border: none; /* No border */
+    border-radius: 50%; /* Rounded corners */
+    font-size: 24px; /* Font size for the arrow */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    z-index: 1000; /* Ensure it's above other elements */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.back-to-top:hover {
+    background-color: #9B7E46; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+
+footer {
+    background-color: #9B7E46; 
+    color: white; 
+    text-align: center; 
+    padding: 1.5rem; 
+    font-family: 'Poppins', sans-serif; 
+}
+
+footer .social-icons a {
+    text-decoration: none; 
+    color: white; 
+    margin: 0 10px; 
+}

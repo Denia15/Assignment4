@@ -1,0 +1,129 @@
+/* Shared styles for Gallery Page */
+body {
+    font-family: 'Poppins', sans-serif; /* Sets the font for the entire page to 'Poppins'. */
+    margin: 0; /* Removes default margin around the body. */
+    padding: 0; /* Removes default padding around the body. */
+    background-color: #EBA6A9; /* Sets body background color to light pink. */
+}
+
+header {
+    background: #C2EABD; /* Sets header background color to light green. */
+    padding: 1rem; /* Adds padding inside the header for spacing. */
+    text-align: center; /* Centers the text inside the header. */
+}
+
+header .nav-links {
+    list-style-type: none; /* Removes bullet points from the list. */
+    padding: 0; /* Removes default padding. */
+    margin: 0; /* Removes default margin. */
+    display: flex; /* Displays the list items in a row. */
+    justify-content: center; /* Centers the navigation links horizontally. */
+}
+
+header .nav-links a {
+    text-decoration: none; /* Removes the underline from navigation links. */
+    color: #264653; /* Sets navigation links color to dark blue-green. */
+    margin: 0 10px; /* Adds horizontal spacing between navigation links. */
+    font-family: 'Poppins', sans-serif; /* Ensures navigation links use the 'Poppins' font. */
+}
+
+.gallery {
+    padding: 3rem; /* Adds padding inside the gallery section for spacing. */
+    text-align: center; /* Centers the text inside the gallery section. */
+    background: #EBA6A9; /* Matches body background color. */
+}
+
+.gallery h1 {
+    font-family: 'Lora', serif; /* Sets the font for the main heading to 'Lora'. */
+    font-size: 3rem; /* Sets the font size of the main heading to 3 rem units. */
+    color: #264653; /* Sets the text color of the main heading to dark blue-green. */
+    margin-bottom: 1.5rem; /* Adds a margin of 1.5 rem below the heading. */
+}
+
+.gallery p {
+    font-size: 1.2rem; /* Sets the font size of paragraphs inside the tips section to 1.2 rem units. */
+    color: #264653; /* Sets the text color of paragraphs to match the tip headings. */
+}
+
+.gallery-grid {
+    display: grid; /* Uses grid layout for the gallery items. */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Defines responsive columns. */
+    gap: 1rem; /* Adds space between grid items. */
+    justify-items: center; /* Centers items horizontally within their grid cells. */
+}
+
+.galleryitem {
+    background-color: #C2EABD; /* Sets the background color for each tip to light green. */
+    border-radius: 8px; /* Rounds the corners of each tip. */
+    padding: 1.5rem; /* Adds padding inside each tip for spacing. */
+    margin-bottom: 2rem; /* Adds a margin of 2 rem below each tip. */
+}
+
+.galleryitem p {
+    font-size: 1.2rem; /* Sets the font size of paragraphs inside the tips section to 1.2 rem units. */
+    color: #264653; /* Sets the text color of paragraphs to match the tip headings. */
+}
+
+.galleryitem {
+    text-align: center; /* Centers the image and caption text */
+    margin-bottom: 2rem; /* Adds space below each gallery item */
+}
+
+.galleryitem img {
+    width: 100%; /* Responsive image */
+    max-width: 300px; /* Maximum width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Rounded corners */
+    transition: transform 0.3s ease; /* Optional: Add hover zoom effect */
+}
+
+.galleryitem:hover img {
+    transform: scale(1.1); /* Optional: Zoom effect on hover */
+}
+
+.caption {
+    font-size: 1rem; /* Adjust text size */
+    color: #264653; /* Match your design's color palette */
+    margin-top: 10px; /* Add space between the image and caption */
+    font-family: 'Poppins', sans-serif; /* Use your primary font */
+    line-height: 1.5;
+}
+
+/* Back to Top Button */
+.back-to-top {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed position on the screen */
+    bottom: 20px; /* 20 pixels from the bottom */
+    right: 20px; /* 20 pixels from the right */
+    width: 50px; /* Button width */
+    height: 50px; /* Button height */
+    background-color: #C2EABD; /* Light green background color */
+    color: #264653; /* Dark blue-green text color */
+    border: none; /* No border */
+    border-radius: 50%; /* Rounded corners */
+    font-size: 24px; /* Font size for the arrow */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    z-index: 1000; /* Ensure it's above other elements */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.back-to-top:hover {
+    background-color: #9B7E46; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+
+footer {
+    background-color: #9B7E46; /* Sets footer background color to dark yellow-brown. */
+    color: white; /* Sets footer text color to white. */
+    text-align: center; /* Centers the text inside the footer. */
+    padding: 1.5rem; /* Adds padding inside the footer. */
+    font-family: 'Poppins', sans-serif; /* Ensures footer uses 'Poppins' font. */
+}
+
+footer .social-icons a {
+    text-decoration: none; /* Removes underline from social media links. */
+    color: white; /* Sets social media link color to white. */
+    margin: 0 10px; /* Adds horizontal spacing between social media links. */
+}

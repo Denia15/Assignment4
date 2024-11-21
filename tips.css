@@ -1,0 +1,115 @@
+/* Shared styles for Tips Page */
+body {
+    font-family: 'Poppins', sans-serif; /* Sets the font for the entire page to 'Poppins'. */
+    margin: 0; /* Removes the default margin around the body. */
+    padding: 0; /* Removes the default padding around the body. */
+    background-color: #EBA6A9; /* Sets the background color of the body to light pink. */
+}
+
+header {
+    background: #C2EABD; /* Sets the background color of the header to light green. */
+    padding: 1rem; /* Adds padding inside the header for spacing. */
+    text-align: center; /* Centers the text inside the header. */
+}
+
+header .nav-links {
+    list-style-type: none; /* Removes bullet points from the list. */
+    padding: 0; /* Removes default padding. */
+    margin: 0; /* Removes default margin. */
+    display: flex; /* Displays the list items in a row. */
+    justify-content: center; /* Centers the navigation links horizontally. */
+}
+
+header .nav-links a {
+    text-decoration: none; /* Removes the underline from the navigation links. */
+    color: #264653; /* Sets the text color of the links to dark blue-green. */
+    margin: 0 10px; /* Adds a margin of 10px on the left and right sides of each link. */
+    font-family: 'Poppins', sans-serif; /* Ensures the links use the 'Poppins' font. */
+}
+
+.tips {
+    padding: 5rem; /* Adds padding inside the tips section for spacing. */
+    text-align: center; /* Centers the text inside the tips section. */
+    background-color: #EBA6A9; /* Sets the background color of the tips section to match the body background. */
+}
+
+.tips h1 {
+    font-family: 'Lora', serif; /* Sets the font for the main heading to 'Lora'. */
+    font-size: 3rem; /* Sets the font size of the main heading to 3 rem units. */
+    color: #264653; /* Sets the text color of the main heading to dark blue-green. */
+    margin-bottom: 1.5rem; /* Adds a margin of 1.5 rem below the heading. */
+}
+
+.tip {
+    background-color: #C2EABD; /* Sets the background color for each tip to light green. */
+    border-radius: 8px; /* Rounds the corners of each tip. */
+    padding: 1.5rem; /* Adds padding inside each tip for spacing. */
+    margin-bottom: 2rem; /* Adds a margin of 2 rem below each tip. */
+}
+
+.tip h2 {
+    font-family: 'Lora', serif; /* Sets the font for the tip headings to 'Lora'. */
+    font-size: 2rem; /* Sets the font size of the tip headings to 2 rem units. */
+    color: #264653; /* Sets the text color of the tip headings to dark blue-green. */
+    margin-bottom: 0.8rem; /* Adds a margin of 0.8 rem below each tip heading. */
+}
+
+.tip p {
+    font-size: 1.2rem; /* Sets the font size of paragraphs inside the tips section to 1.2 rem units. */
+    color: #264653; /* Sets the text color of paragraphs to match the tip headings. */
+}
+/* CSS to hide answers by default and style the FAQ */
+.faq-answer {
+    display: none; /* Hide answers by default */
+}
+
+.faq-question {
+    cursor: pointer; /* Change cursor to pointer when hovering over the button */
+}
+
+.faq h2 {
+    font-family: 'Lora', serif; /* Sets the font for the tip headings to 'Lora'. */
+    font-size: 2rem; /* Sets the font size of the tip headings to 2 rem units. */
+    color: #264653; /* Sets the text color of the tip headings to dark blue-green. */
+    margin-bottom: 0.8rem; /* Adds a margin of 0.8 rem below each tip heading. */
+}
+
+/* Back to Top Button */
+.back-to-top {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed position on the screen */
+    bottom: 20px; /* 20 pixels from the bottom */
+    right: 20px; /* 20 pixels from the right */
+    width: 50px; /* Button width */
+    height: 50px; /* Button height */
+    background-color: #C2EABD; /* Light green background color */
+    color: #264653; /* Dark blue-green text color */
+    border: none; /* No border */
+    border-radius: 50%; /* Rounded corners */
+    font-size: 24px; /* Font size for the arrow */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    z-index: 1000; /* Ensure it's above other elements */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.back-to-top:hover {
+    background-color: #9B7E46; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+
+
+footer {
+    background-color: #9B7E46; /* Sets the background color of the footer to dark yellow-brown. */
+    color: white; /* Sets the text color of the footer to white. */
+    text-align: center; /* Centers the text inside the footer. */
+    padding: 1.5rem; /* Adds padding inside the footer for spacing. */
+    font-family: 'Poppins', sans-serif; /* Ensures the footer uses the 'Poppins' font. */
+}
+
+footer .social-icons a {
+    text-decoration: none; /* Removes the underline from the social media links. */
+    color: white; /* Sets the text color of the social media links to white. */
+    margin: 0 10px; /* Adds a margin of 10px on the left and right sides of each link. */
+}
